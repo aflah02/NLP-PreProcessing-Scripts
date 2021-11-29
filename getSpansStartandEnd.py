@@ -1,3 +1,11 @@
+'''
+Structure of Data
+df is dataframe
+tofind_spans is list like - 
+ [a, b c d]
+ where a is one substring to find and b c d is another
+full_sent is a complete sentence such as a string like 'a b c d e f'
+'''
 def get_numeric_spans(tofind_spans, full_sent):
     dict_spans = {}
     dict_spans['start'] = []
